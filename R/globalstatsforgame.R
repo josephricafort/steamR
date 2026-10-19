@@ -7,8 +7,9 @@
 #' @import rjson
 #' @param gameid Steam game ID
 #' @param stat name of achievent
-glbstats <- function (gameid = "17740", stat = "global.map.emp_isle") {
-
+glbstats <- function (gameid = "2358720", stat = "global.map.emp_isle") {
+  # Black Wukong ID: 2358720
+  
   json_file1 <-
     "http://api.steampowered.com/ISteamUserStats/GetGlobalStatsForGame/v0001/?format=json&appid="
   json_file2 <- "&count=1&name[0]="
